@@ -1,0 +1,30 @@
+{
+	"gcl" : true,
+	"module" : true,
+	"noempty" : true,
+	"noarg" : true,
+	"unused" : "strict",
+	"white" : true,
+	"maxstatements" : 30,
+	"maxcomplexity" : 6,
+	"indent" : 2,
+	"bitwise" : true,
+	"validthis" : true,
+	"nonew" : true,
+	"forin" : true,
+	"curly" : true,
+	"eqnull" : true,
+	"eqeqeq" : true,
+	"undef" : true,
+	"-W032" : true,
+	"-W015"  : true,
+	"globals" : {
+		"browser" : true,
+		"node" :true,
+		"window" : true,
+		"document" : true,
+		"console" : true,
+		"$" : true,
+		"jQuery" : true
+	}
+}

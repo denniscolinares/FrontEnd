@@ -1,0 +1,35 @@
+---
+engines:
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - ruby
+      - javascript
+      - python
+      - php
+  eslint:
+    enabled: true
+  csslint:
+      enabled: true
+  scss-lint:
+      enabled: false
+  fixme:
+    enabled: true
+ratings:
+  paths:
+  - "**.css"
+  - "**.inc"
+  - "**.js"
+  - "**.jsx"
+  - "**.module"
+  - "**.php"
+  - "**.py"
+  - "**.rb"
+exclude_paths:
+- .idea/
+- Gruntfile.js
+- "**.min.css"
+- "**.min.js"
+- .temp/
+- node_modules/

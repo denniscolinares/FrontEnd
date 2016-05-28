@@ -1,0 +1,19 @@
+@mixin borderRadius($style, $amount, $color) {
+  border: $style $amount $color;
+  -moz-border-radius-topleft: $amount;
+  -moz-border-radius-topright: $amount;
+  -moz-border-radius-bottomleft: $amount;
+  -moz-border-radius-bottomright: $amount;
+  -webkit-border-top-left-radius: $amount;
+  -webkit-border-top-right-radius: $amount;
+  -webkit-border-bottom-left-radius: $amount;
+  -webkit-border-bottom-right-radius: $amount;
+  border-top-left-radius: $amount;
+  border-top-right-radius: $amount;
+  border-bottom-left-radius: $amount;
+  border-bottom-right-radius: $amount;
+}
+
+@mixin shadow() {
+  display: block;
+}
