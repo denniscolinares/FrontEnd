@@ -7,9 +7,16 @@
   },
   "private": true,
   "main": "dist/index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "directories": {
+    "assets": "assets",
+    "dist": "dist"
   },
+  "scripts": {
+    "Start": "open ./dist/index.html"
+  },
+	"dependencies": {
+		"grunt-sync": "^0.5.2"
+	},
   "devDependencies": {
     "grunt": "~0.4.0",
     "grunt-browser-sync": "^2.2.0",
@@ -22,7 +29,6 @@
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-filerev": "^2.3.1",
-    "grunt-sass": "^1.2.0",
     "grunt-sass-version": "^0.1.1",
     "grunt-sass-watch": "0.0.1",
     "grunt-usemin": "^3.1.1",
@@ -31,7 +37,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:denniscolinares/FrontEnd.git"
+    "url": "git://github.com:denniscolinares/FrontEnd.git"
   },
   "bugs": {
     "url": ""

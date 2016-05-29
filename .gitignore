@@ -6,3 +6,4 @@ gen
 /.temp/
 /.sass-cache/
 /dist/
+/node_modules/

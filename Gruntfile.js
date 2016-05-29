@@ -45,41 +45,29 @@ module.exports = function (grunt) {
 			}
 		},
 
-		/*
-		Available only in sass 3.4.x version (grunt-contrib-sass)
-		*/
-		/*
 		sass: {
 			compile: {
 				options: {
-					sourcemap: "none",
-					style: "expanded",
+					style: "compressed",
+					unixNewlines: true,
+					check: false,
+					precision: 10,
+					quiet: true,
 					compass: false,
-					trace: false,
+					debugInfo: false,
+					lineNumbers: false,
+					trace: true,
+					noCache: false,
 					update: false,
 					cacheLocation: "<%= fileDir.tempPath %>.scss_cache/"
 				},
 				files: [{
 					expand: true,
-					cwd: 'styles',
-					src: ["<%= fileDir.src.scssPath %>*.scss"],
-					dest: "<%= fileDir.tempPath %>css/",
+					cwd: "<%= fileDir.src.scssPath %>",
+					src: ["*.scss"],
+					dest: "<%= fileDir.tempPath %>css",
 					ext: ".min.css"
 				}]
-			}
-		},*/
-
-		/*
-		Supports lower version of sass
-		*/
-		sass: {
-			options: {
-				sourceMap: false
-			},
-			dist: {
-				files: {
-					"<%= fileDir.tempPath %>css/style.css": "<%= fileDir.src.scssPath %>*.scss"
-				}
 			}
 		},
 
