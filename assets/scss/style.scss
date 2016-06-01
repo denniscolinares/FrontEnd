@@ -4,14 +4,10 @@
 @import "base/mixins";
 
 @import "base/reset";
-
-/*Comment normalize if using bootstrap*/
-@import "base/normalize";
+@import "base/bootstrap";
 
 @import "base/global";
 
 @import "base/placeholder";
 
 @import "base/general";
-
-
