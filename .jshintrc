@@ -7,6 +7,8 @@
 	"white" : true,
 	"maxstatements" : 30,
 	"maxcomplexity" : 6,
+	"maxlen" : 120,
+	"maxparams" : 5,
 	"indent" : 2,
 	"bitwise" : true,
 	"validthis" : true,
@@ -16,15 +18,18 @@
 	"eqnull" : true,
 	"eqeqeq" : true,
 	"undef" : true,
+	"esversion" : 5,
+	"browser" : true,
+	"devel" : true,
+	"node" :true,
+	"jquery" : true,
+	"typed" : true,
+	"worker" : true,
+	"wsh" : true,
 	"-W032" : true,
 	"-W015"  : true,
+	"predef" : [],
 	"globals" : {
-		"browser" : true,
-		"node" :true,
-		"window" : true,
-		"document" : true,
-		"console" : true,
-		"$" : true,
-		"jQuery" : true
+		"moment" : true
 	}
 }
