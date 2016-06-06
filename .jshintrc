@@ -3,7 +3,7 @@
 	"module" : true,
 	"noempty" : true,
 	"noarg" : true,
-	"unused" : "strict",
+	"unused" : true,
 	"white" : true,
 	"maxstatements" : 30,
 	"maxcomplexity" : 6,
