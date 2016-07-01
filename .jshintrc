@@ -1,6 +1,5 @@
 {
 	"gcl" : true,
-	"module" : true,
 	"noempty" : true,
 	"noarg" : true,
 	"unused" : true,
