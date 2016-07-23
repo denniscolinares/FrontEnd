@@ -18,23 +18,23 @@ module.exports = function (grunt) {
 		fileDir: {
 			tempPath: ".temp/",
 			src:{
-				path: "assets/",
-				cssPath: "assets/css/",
-				scssPath: "assets/scss/",
-				jsPath: "assets/js/",
-				jsPathVendor: "assets/js/vendor/",
-				jsPathPlugins: "assets/js/plugins/",
-				imagePath: "assets/images/",
-				fontsPath: "assets/fonts/"
+				path: "src/",
+				cssPath: "src/assets/css/",
+				scssPath: "src/assets/scss/",
+				jsPath: "src/assets/js/",
+				jsPathVendor: "src/assets/js/vendor/",
+				jsPathPlugins: "src/assets/js/plugins/",
+				imagePath: "src/assets/images/",
+				fontsPath: "src/assets/fonts/"
 			},
 			dist:{
 				path: "dist/",
-				cssPath: "dist/css/",
-				jsPath: "dist/js/",
-				jsPathVendor: "dist/js/vendor/",
-				jsPathPlugins: "dist/js/plugins/",
-				imagePath: "dist/images/",
-				fontsPath: "dist/fonts/"
+				cssPath: "dist/assets/css/",
+				jsPath: "dist/assets/js/",
+				jsPathVendor: "dist/assets/js/vendor/",
+				jsPathPlugins: "dist/assets/js/plugins/",
+				imagePath: "dist/assets/images/",
+				fontsPath: "dist/assets/fonts/"
 			}
 		},
 
