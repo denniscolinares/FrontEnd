@@ -174,13 +174,13 @@ module.exports = function (grunt) {
 		browserSync: {
 			default_options: {
 				bsFiles: {
-					src: "assets/"
+					src: "<%= fileDir.src.path %>"
 				},
 				options: {
 					watchTask: true,
 					port: 8080,
 					server: {
-						baseDir: "./dist/"
+						baseDir: "./<%= fileDir.dist.path %>"
 					}
 				}
 			}
